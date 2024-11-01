@@ -1,0 +1,42 @@
+---
+import NavBar from '../components/NavBar.astro'; 
+import Footer from '../components/Footer.astro'; 
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Characters</title>
+    <link rel="stylesheet" href="/styles/global.css"> <!-- Link to the global CSS -->
+</head>
+<body>
+    <header>
+        <NavBar /> <!-- Include the NavBar component -->
+    </header>
+
+    <main>
+        <h1>The Movies</h1>
+        <div class="historytext">
+            <section>
+                <h2>The History of DC Comics</h2>
+                <h3>1. Origins (1934-1938)</h3>
+                <p>
+                    DC Comics traces its origins to 1934 with the publication of "New Fun: The Big Comic Magazine" by National Allied Publications, which later became known as DC.
+                </p>
+                <h3>2. Golden Age (1938-1950)</h3>
+                <p>
+                    The Golden Age of Comic Books saw the introduction of iconic characters like Superman, Batman, and Wonder Woman.
+                </p>
+                <h3>3. Current Trends</h3>
+                <p>
+                    Inclusive Storytelling: Recent years have focused on diverse characters and stories, reflecting a broader audience and contemporary issues.
+                </p>
+            </section>
+        </div>
+    </main>
+
+    <Footer /> <!-- Include the Footer component -->
+</body>
+</html>
